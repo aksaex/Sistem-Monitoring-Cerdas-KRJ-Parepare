@@ -1,4 +1,4 @@
-<img width="960" height="540" alt="daftar pohon" src="https://github.com/user-attachments/assets/6ea0dd82-bc7d-43fe-bccc-a7cab9d2d53d" /># Sistem Teknologi Cerdas Monitoring Pohon KRJ Parepare
+# Sistem Teknologi Cerdas Monitoring Pohon KRJ Parepare
 
 ![Status](https://img.shields.io/badge/Status-Prototyping-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
