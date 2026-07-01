@@ -1,0 +1,6 @@
+/petugas/uploads/*
+!/petugas/uploads/.gitkeep
+/assets/uploads/reports/*
+!/assets/uploads/reports/.gitkeep
+__pycache__/
+*.pyc
