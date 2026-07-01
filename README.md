@@ -29,25 +29,6 @@ Sistem ini bertindak sebagai asisten cerdas bagi petugas pelestari lingkungan da
 
 ---
 
-## 📸 Tampilan Antarmuka & Fitur Sistem (Screenshots)
-
-Berikut adalah dokumentasi visual sistem monitoring cerdas yang telah diimplementasikan:
-
-### 1. Form Pelaporan Petugas Lapangan Terintegrasi AI
-Antarmuka responsif yang digunakan petugas untuk melaporkan kondisi pohon terlindungi secara langsung. Saat berkas foto dipilih dan form dikirimkan, berkas akan diteruskan ke skrip mesin cerdas `prediksi.py`.
-<p align="center">
-  <img width="950" height="540" alt="dashboar petugas" src="https://github.com/user-attachments/assets/6dd6aef9-1ee0-40ae-81ee-dde945d66556" />
-</p>
-
-### 2. Dashboard Utama Admin & Ringkasan Analitik AI
-Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan secara langsung berdasarkan hasil klasifikasi prediktif kecerdasan buatan, serta metrik pemantauan data sensor lingkungan terakhir.
-<p align="center">
-  <img width="960" height="540" alt="dashboard admin" src="https://github.com/user-attachments/assets/2c11096e-2662-48a2-8c1f-f8482cbd2c35" />
-
-</p>
-
----
-
 ## 🛠️ Teknologi yang Digunakan (Tech Stack)
 
 ### Software & Backend Engineering (SE)
@@ -73,6 +54,18 @@ Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan s
 ---
 
 ### 📸 Tampilan Antarmuka & Fitur Sistem
+
+### 1. Dashboard Petugas Data Lingkungan IOT & Hasil Analisis AI
+<p align="center">
+  <img width="950" height="540" alt="dashboar petugas" src="https://github.com/user-attachments/assets/6dd6aef9-1ee0-40ae-81ee-dde945d66556" />
+</p>
+
+### 2. Dashboard Admin Ringkasan Sistem
+<p align="center">
+  <img width="960" height="540" alt="dashboard admin" src="https://github.com/user-attachments/assets/2c11096e-2662-48a2-8c1f-f8482cbd2c35" />
+</p>
+
+---
 
 ### PETUGAS
 **1. Login**
@@ -106,6 +99,8 @@ Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan s
 **8. Hasil Unduh File pdf Laporan Aktivitas Petugas**
 <img width="906" height="527" alt="hasil unduh file pdf Laporan Aktivitas Petugas" src="https://github.com/user-attachments/assets/464f6eca-1bd9-44bb-bf37-ef7085f2271c" />
 
+---
+
 ## 🚀 Panduan Instalasi & Konfigurasi (Local Development)
 
 ### Prasyarat Sistem
@@ -121,4 +116,3 @@ Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan s
    cd C:\xampp\htdocs
    git clone [https://github.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare.git](https://github.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare.git) monitoring-krj
    cd monitoring-krj
-
