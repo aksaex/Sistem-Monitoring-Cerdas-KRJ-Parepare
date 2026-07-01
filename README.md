@@ -1,4 +1,4 @@
-# 🌳 Sistem Teknologi Cerdas Monitoring Pohon KRJ Parepare
+# Sistem Teknologi Cerdas Monitoring Pohon KRJ Parepare
 
 ![Status](https://img.shields.io/badge/Status-Prototyping-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
@@ -33,22 +33,17 @@ Sistem ini bertindak sebagai asisten cerdas bagi petugas pelestari lingkungan da
 
 Berikut adalah dokumentasi visual sistem monitoring cerdas yang telah diimplementasikan:
 
-### 1. Dashboard Utama Admin & Ringkasan Analitik AI
-Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan secara langsung berdasarkan hasil klasifikasi prediktif kecerdasan buatan, serta metrik pemantauan data sensor lingkungan terakhir.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare/main/assets/images/screenshots/admin_dashboard.png" alt="Dashboard Utama Admin" width="90%">
-</p>
-
-### 2. Form Pelaporan Petugas Lapangan Terintegrasi AI
+### 1. Form Pelaporan Petugas Lapangan Terintegrasi AI
 Antarmuka responsif yang digunakan petugas untuk melaporkan kondisi pohon terlindungi secara langsung. Saat berkas foto dipilih dan form dikirimkan, berkas akan diteruskan ke skrip mesin cerdas `prediksi.py`.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare/main/assets/images/screenshots/report_form.png" alt="Form Pelaporan Petugas" width="85%">
+  <img width="950" height="540" alt="dashboar petugas" src="https://github.com/user-attachments/assets/6dd6aef9-1ee0-40ae-81ee-dde945d66556" />
 </p>
 
-### 3. Log Riwayat Analisis Prediksi Kesehatan Pohon
-Halaman yang menampilkan data historis laporan petugas lengkap dengan visualisasi berkas foto pohon, waktu pelaporan, detail status dari petugas, dan label diagnosis objektif dari sistem cerdas (`Sehat`, `Perlu Tindakan`, `Kritis`).
+### 2. Dashboard Utama Admin & Ringkasan Analitik AI
+Menampilkan data ringkasan kesehatan aset pohon terlindungi yang dikelompokkan secara langsung berdasarkan hasil klasifikasi prediktif kecerdasan buatan, serta metrik pemantauan data sensor lingkungan terakhir.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare/main/assets/images/screenshots/history_log.png" alt="Log Riwayat Analisis AI" width="90%">
+  <img width="960" height="540" alt="dashboard admin" src="https://github.com/user-attachments/assets/2c11096e-2662-48a2-8c1f-f8482cbd2c35" />
+
 </p>
 
 ---
@@ -77,6 +72,10 @@ Halaman yang menampilkan data historis laporan petugas lengkap dengan visualisas
 
 ---
 
+### 📸 Tampilan Antarmuka & Fitur Sistem (Screenshots)
+
+
+
 ## 🚀 Panduan Instalasi & Konfigurasi (Local Development)
 
 ### Prasyarat Sistem
@@ -92,3 +91,4 @@ Halaman yang menampilkan data historis laporan petugas lengkap dengan visualisas
    cd C:\xampp\htdocs
    git clone [https://github.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare.git](https://github.com/aksaex/Sistem-Monitoring-Cerdas-KRJ-Parepare.git) monitoring-krj
    cd monitoring-krj
+
